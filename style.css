@@ -13,6 +13,7 @@ body {
   display: flex;
   margin-left: 1rem;
   position: relative;
+  color:blueviolet;
 }
 #target::after {
   content: "";
@@ -24,6 +25,7 @@ body {
   transform: translateY(-4px);
   right: -5px;
   animation: anim 0.8s linear infinite;
+
 }
 @keyframes anim {
   50% {
